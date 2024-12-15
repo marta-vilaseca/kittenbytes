@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url("assets/images/Background_space.png") top left no-repeat fixed;
+  background: url("assets/images/Background_space.png") top left repeat-y fixed;
   background-size: cover;
   color: white;
   line-height: 2;
