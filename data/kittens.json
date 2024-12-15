@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "name": "Pixel",
+    "sprite": "./assets/images/kittens/three-color.gif",
+    "traits": ["lap-cat", "quiet", "bright", "pixel-art", "snoozer", "sunglasses", "donuts"],
+    "profile": "Pixel is a quiet, cozy lap cat with a love for pixel art and a penchant for lounging in the sun. Whether catching some rays or nibbling on digital donuts, Pixel is a calm, soothing presence who brings a touch of brightness to every room."
+  },
+  {
+    "id": 2,
+    "name": "Gyoza",
+    "sprite": "./assets/images/kittens/siamese-2.gif",
+    "traits": ["chatty", "adventurer", "laser-chaser", "muted", "tuna", "zoomer"],
+    "profile": "Gyoza is an adventurous and chatty soul, always ready to explore new corners of the world and chase after laser dots. With a love for tuna and a natural curiosity, Gyoza is the purrfect match for someone who enjoys a bit of playful energy and excitement."
+  },
+  {
+    "id": 3,
+    "name": "Shadow",
+    "sprite": "./assets/images/kittens/black.gif",
+    "traits": ["adventurer", "night-owl", "cardboard-box", "pianist", "constellations", "skyscrapers"],
+    "profile": "Shadow is a night-owl adventurer who thrives in the quiet of the dark. Whether curled up in a cardboard box or gazing at the stars, Shadow is a thoughtful, artistic kitty who finds joy in both solitude and exploration."
+  },
+  {
+    "id": 4,
+    "name": "Crowley",
+    "sprite": "./assets/images/kittens/demonic.gif",
+    "traits": ["mischief-maker", "modern", "sunglasses", "night-owl", "constellations", "throne"],
+    "profile": "Crowley is a mischievous, modern feline with a flair for the dramatic. Always sporting his stylish sunglasses, he's a night owl who loves to explore the stars and rule from his throne. With Crowley, every moment is filled with charisma and mystery."
+  },
+  {
+    "id": 5,
+    "name": "Aziraphale",
+    "sprite": "./assets/images/kittens/default.gif",
+    "traits": ["chatty", "whimsical", "muted", "cozy-sweater", "curling-up", "bow-tie"],
+    "profile": "Aziraphale is the chatty and whimsical type, often found curling up in cozy sweaters or gazing out the window. With a love for soft, muted colors and a relaxed demeanor, Aziraphale is a perfect companion for peaceful days filled with conversation and comfort."
+  },
+  {
+    "id": 6,
+    "name": "Batman",
+    "sprite": "./assets/images/kittens/batman-2.gif",
+    "traits": ["quiet", "adventurer", "laser-chaser", "night-owl", "skyscrapers", "diva"],
+    "profile": "Batman is a quiet, adventurous kitty who thrives on late-night escapades and laser chases. Whether scaling skyscrapers or dreaming of new adventures, Batman is the perfect match for a night owl with a love for thrills and mystery."
+  },
+  {
+    "id": 7,
+    "name": "Loki",
+    "sprite": "./assets/images/kittens/black-2.gif",
+    "traits": ["mischief-maker", "adventurer", "palace-ruler", "throne", "neon-mohawk", "diva"],
+    "profile": "Loki is a playful mischief-maker who knows how to rule a palace and make everyone kneel at his paws. Adventurous and full of flair, he’s a confident diva who loves to stir up trouble while looking fabulous. If you enjoy a bit of drama and excitement, Loki is the one for you."
+  },
+  {
+    "id": 8,
+    "name": "Colette",
+    "sprite": "./assets/images/kittens/white.gif",
+    "traits": ["modern", "bright", "sun-lounger", "early-bird", "butterflies", "sweetheart"],
+    "profile": "Colette is a modern, bright-eyed sun lounger who loves the mornings. With her whimsical nature and love for butterflies, she’s a sweetheart who’ll warm your heart. Colette’s perfect for someone who appreciates a calm, cheerful companion with a love for the outdoors."
+  },
+  {
+    "id": 9,
+    "name": "Ankha",
+    "sprite": "./assets/images/kittens/egypt.gif",
+    "traits": ["pianist", "chatty", "modern", "tuna", "throne", "diva"],
+    "profile": "Ankha is a chatty diva with an eye for elegance and style. Whether playing the piano or ruling from her throne, Ankha brings a sense of sophistication and grace wherever she goes. With her modern edge and love for tuna, she’s a purrfect blend of class and charisma."
+  },
+  {
+    "id": 10,
+    "name": "Klaus",
+    "sprite": "./assets/images/kittens/xmas-2.gif",
+    "traits": ["lap-cat", "chatty", "whimsical", "laser-chaser", "cozy-sweater", "curling-up"],
+    "profile": "Klaus is the ultimate cuddle buddy—quiet, gentle, and always ready to curl up in a cozy sweater. Whether chasing lasers or curling up in comfort, Klaus brings a sense of peace and joy to your home, making him the ideal companion for the festive season."
+  },
+  {
+    "id": 11,
+    "name": "Molly",
+    "sprite": "./assets/images/kittens/xmas.gif",
+    "traits": ["quiet", "sweetheart", "shadow", "sun-lounger", "cardboard-box", "donuts"],
+    "profile": "Molly is a sweetheart with a love for quiet moments and sunny naps. Whether basking in the warmth of the sun or snuggling in a cardboard box, Molly is a calm, loving presence who adores gentle companionship and a peaceful environment."
+  },
+  {
+    "id": 12,
+    "name": "Johnny",
+    "sprite": "./assets/images/kittens/batman.gif",
+    "traits": ["adventurer", "laser-chaser", "cyber-explorer", "night-owl", "animated-gifs", "neon-mohawk"],
+    "profile": "Johnny is an energetic adventurer with a flair for technology. A true night owl, he loves to chase lasers and explore the cyber-worlds in animated gifs. With his vibrant neon mohawk, Johnny is perfect for someone who enjoys a high-energy, tech-savvy feline friend."
+  },
+  {
+    "id": 13,
+    "name": "Silver",
+    "sprite": "./assets/images/kittens/default-2.gif",
+    "traits": ["techno-dj", "sunglasses", "cyber-explorer", "night-owl", "pixel-art", "diva"],
+    "profile": "Silver is a techno-dj with a passion for all things cyber and pixelated. Night-owl and bold, she rules the virtual world with her chic sunglasses and neon style. If you love digital art, dance beats, and futuristic vibes, Silver is the perfect kitty for you."
+  },
+  {
+    "id": 14,
+    "name": "Garrus",
+    "sprite": "./assets/images/kittens/black.gif",
+    "traits": ["shadow", "chatty", "cardboard-box", "curling-up", "tuna", "zoomer"],
+    "profile": "Garrus is a chatty, energetic cat who’s always on the move. Whether zooming around or curling up in a cozy box, he’s a playful and loving companion. With his love for tuna and a sense of adventure, Garrus is the cat who keeps life exciting and fun."
+  },
+  {
+    "id": 15,
+    "name": "Goro",
+    "sprite": "./assets/images/kittens/black-2.gif",
+    "traits": ["shadow", "chatty", "laser-chaser", "butterflies", "donuts", "zoomer"],
+    "profile": "Goro is a playful and energetic kitty who’s always up for a game of laser chase or butterfly hunt. Whether zooming around or enjoying digital donuts, Goro is a friendly, chatty adventurer who loves to keep things lively and entertaining."
+  },
+  {
+    "id": 16,
+    "name": "Rastan",
+    "sprite": "./assets/images/kittens/tiger.gif",
+    "traits": ["sun-lounger", "chatty", "palace-ruler", "early-bird", "skyscrapers", "diva"],
+    "profile": "Rastan is a sun-loving, early-bird adventurer who rules his digital palace with grace and style. Chatty and confident, Rastan enjoys the quiet thrill of exploring towering skyscrapers while soaking up the sunlight. If you love a regal and majestic companion, Rastan is the one for you."
+  },
+  {
+    "id": 17,
+    "name": "Akira",
+    "sprite": "./assets/images/kittens/siamese.gif",
+    "traits": ["sun-lounger", "shadow", "sweetheart", "laser-chaser", "quiet", "lap-cat"],
+    "profile": "Akira is a gentle, thoughtful cat who loves lounging in the sun and exploring the world at a slow, steady pace. With a heart of gold, Akira enjoys quiet moments, whether basking in the warmth or curling up with a beloved companion."
+  },
+  {
+    "id": 18,
+    "name": "Foo",
+    "sprite": "./assets/images/kittens/three-color-2.gif",
+    "traits": ["bright", "chatty", "cozy-sweater", "early-bird", "curling-up", "sweetheart"],
+    "profile": "Foo is an upbeat, chatty kitty with a love for early mornings and soft, cozy sweaters. With a whimsical personality and a knack for curling up into tight little balls, Foo is the purrfect companion for a calm, cheerful household."
+  },
+  {
+    "id": 19,
+    "name": "Dwalin",
+    "sprite": "./assets/images/kittens/brown.gif",
+    "traits": ["lap-cat", "quiet", "cozy-sweater", "butterflies", "tuna", "sweetheart"],
+    "profile": "Dwalin is a gentle lap-cat with a love for cozy sweaters and peaceful afternoons. He enjoys napping in sunbeams, chasing butterflies, and sharing quiet moments. A kind and affectionate cat, Dwalin will fill your life with warmth and comfort."
+  },
+  {
+    "id": 20,
+    "name": "Ezio",
+    "sprite": "./assets/images/kittens/black-2.gif",
+    "traits": ["adventurer", "cyber-explorer", "cardboard-box", "techno-dj", "constellations", "tuna"],
+    "profile": "Ezio is an adventurous soul with a passion for exploring new worlds. Whether chasing lasers or discovering virtual galaxies, Ezio thrives in the cyber realms. With his techno beats and love for constellations, he’s a great match for anyone who craves excitement and digital exploration."
+  },
+  {
+    "id": 21,
+    "name": "Neon",
+    "sprite": "./assets/images/kittens/demonic-2.gif",
+    "traits": ["mischief-maker", "bright", "neon-mohawk", "animated-gifs", "zoomer", "cyber-explorer"],
+    "profile": "Neon is a vibrant, tech-savvy troublemaker with a love for bold styles and animated gifs. Always on the go, this mischievous kitty is perfect for anyone who loves high-energy adventures and a bit of playful chaos."
+  },
+  {
+    "id": 22,
+    "name": "Patches",
+    "sprite": "./assets/images/kittens/three-color.gif",
+    "traits": ["lap-cat", "early-bird", "sun-lounger", "cozy-sweater", "sweetheart", "butterflies"],
+    "profile": "Patches is a gentle, cozy cat who enjoys quiet mornings and sunny afternoons. With a heart full of affection and a love for butterflies, Patches is the ideal companion for those who cherish peaceful, nurturing moments."
+  },
+  {
+    "id": 23,
+    "name": "Nova",
+    "sprite": "./assets/images/kittens/egypt-2.gif",
+    "traits": ["adventurer", "bright", "animated-gifs", "early-bird", "cyber-explorer", "sunglasses"],
+    "profile": "Nova is a bold and adventurous spirit who thrives on exploring new digital worlds. A lover of animated gifs, technology, and early mornings, Nova is perfect for those who dream of exciting journeys and futuristic vibes."
+  },
+  {
+    "id": 24,
+    "name": "Juno",
+    "sprite": "./assets/images/kittens/default.gif",
+    "traits": ["shadow", "muted", "night-owl", "constellations", "curling-up", "pianist"],
+    "profile": "Juno is a dreamy, artistic soul who thrives in the quiet of night. Whether curled up for a nap or stargazing under the constellations, Juno brings a calm, creative energy that’s perfect for those who enjoy reflective moments."
+  },
+  {
+    "id": 25,
+    "name": "Nimbus",
+    "sprite": "./assets/images/kittens/white.gif",
+    "traits": ["lap-cat", "muted", "sweetheart", "early-bird", "sun-lounger", "cozy-sweater"],
+    "profile": "Nimbus is a soft, cuddly lap cat who loves quiet mornings and basking in the sun. With a sweet, gentle personality and a preference for cozy sweaters, Nimbus is the ideal companion for peaceful, serene moments."
+  },
+  {
+    "id": 26,
+    "name": "Rocket",
+    "sprite": "./assets/images/kittens/demonic-2.gif",
+    "traits": ["adventurer", "bright", "cyber-explorer", "zoomer", "neon-mohawk", "animated-gifs"],
+    "profile": "Rocket is a high-flying adventurer with a neon mohawk and a love for cyber exploration. Always zooming through digital realms and animated gifs, Rocket is the perfect fit for those who thrive on futuristic fun and nonstop action."
+  },
+  {
+    "id": 27,
+    "name": "Pepper",
+    "sprite": "./assets/images/kittens/three-color-2.gif",
+    "traits": ["mischief-maker", "chatty", "sunglasses", "butterflies", "skyscrapers", "diva"],
+    "profile": "Pepper is a sassy diva who commands attention wherever she goes. With her playful spirit and love for both butterflies and towering skyscrapers, she brings a bold, vibrant energy to every moment, making her perfect for anyone who enjoys a little drama."
+  },
+  {
+    "id": 28,
+    "name": "Frost",
+    "sprite": "./assets/images/kittens/white.gif",
+    "traits": ["quiet", "modern", "constellations", "pianist", "shadow", "night-owl"],
+    "profile": "Frost is cool, calm, and composed, a true night owl who loves stargazing and playing soft piano melodies. For those who appreciate a serene and introspective companion, Frost offers quiet beauty and a touch of mystery."
+  },
+  {
+    "id": 29,
+    "name": "Sprout",
+    "sprite": "./assets/images/kittens/tiger.gif",
+    "traits": ["lap-cat", "whimsical", "butterflies", "early-bird", "curling-up", "sweetheart"],
+    "profile": "Sprout is a cheerful, nature-loving cat who adores sunny mornings and chasing butterflies. With a playful, whimsical spirit and a love for curling up in warm spots, Sprout is the perfect snuggle buddy for those who enjoy life’s simple joys."
+  },
+  {
+    "id": 30,
+    "name": "Ziggy",
+    "sprite": "./assets/images/kittens/white-2.gif",
+    "traits": ["mischief-maker", "bright", "techno-dj", "zoomer", "animated-gifs", "palace-ruler"],
+    "profile": "Ziggy is an electrifying, high-energy cat who brings the party wherever she goes. With a techno beat and a bold, funky style, Ziggy is perfect for anyone who wants a lively, adventurous feline friend to rule their digital kingdom."
+  },
+  {
+    "id": 31,
+    "name": "Whisper",
+    "sprite": "./assets/images/kittens/black.gif",
+    "traits": ["quiet", "lap-cat", "sun-lounger", "cozy-sweater", "sweetheart", "bow-tie"],
+    "profile": "Whisper is a gentle soul who loves to stay close to her favorite person, curling up in cozy sweaters or basking in the sunlight. She’s perfect for anyone who craves a peaceful, low-key companion who will keep them company during quiet moments."
+  },
+  {
+    "id": 32,
+    "name": "Marmalade",
+    "sprite": "./assets/images/kittens/siamese.gif",
+    "traits": ["early-bird", "quiet", "butterflies", "sun-lounger", "sweetheart", "whimsical"],
+    "profile": "Marmalade greets each new day with a smile and a flutter of wings as she watches the butterflies dance in the sun. She's a calm, early-riser who loves the quiet serenity of mornings, making her the ideal companion for those who appreciate soft, peaceful vibes."
+  },
+  {
+    "id": 33,
+    "name": "Opal",
+    "sprite": "./assets/images/kittens/default.gif",
+    "traits": ["quiet", "lap-cat", "curling-up", "whimsical", "butterflies", "cozy-sweater"],
+    "profile": "Opal is a delicate and introverted cat who enjoys hiding in quiet corners, curling up with a soft blanket, or watching the world from a distance. She’s not much for loud adventures, but her calm presence is perfect for anyone who enjoys a peaceful, thoughtful companion."
+  },
+  {
+    "id": 34,
+    "name": "Sage",
+    "sprite": "./assets/images/kittens/tiger.gif",
+    "traits": ["night-owl", "quiet", "shadow", "pianist", "muted", "cozy-sweater"],
+    "profile": "Sage is a calm night-dweller who enjoys the peace of late-night hours. With a love for soft melodies and the quiet company of those around him, Sage makes a perfect companion for those who prefer slow, thoughtful evenings full of serenity."
+  },
+  {
+    "id": 35,
+    "name": "Clementine",
+    "sprite": "./assets/images/kittens/three-color.gif",
+    "traits": ["early-bird", "sweetheart", "sun-lounger", "cozy-sweater", "whimsical", "chatty"],
+    "profile": "Clementine is a cheerful, affectionate kitty who loves the quiet beauty of the early morning. Whether lounging in the sun or wrapped in a cozy sweater, Clementine fills the room with warmth and joy, making her the perfect companion for anyone who loves calm mornings and sweet moments."
+  },
+  {
+    "id": 36,
+    "name": "Luna",
+    "sprite": "./assets/images/kittens/default.gif",
+    "traits": ["quiet", "shadow", "night-owl", "muted", "pianist", "sweetheart"],
+    "profile": "Luna is a thoughtful, introverted cat who thrives in the stillness of the night. With her love for music and quiet introspection, Luna is perfect for those who enjoy gentle companionship during peaceful nights or relaxing, reflective days."
+  }
+]

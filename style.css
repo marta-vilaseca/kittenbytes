@@ -101,3 +101,45 @@ hr {
   margin: 50px auto;
   text-align: center;
 }
+
+#quiz .center {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.question {
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.from-left {
+  animation: slideInLeft 0.5s ease-in-out;
+}
+
+.from-right {
+  animation: slideInRight 0.5s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

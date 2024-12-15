@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Do you prefer a cuddly lap cat or a playful mischief-maker?",
+    "answer1": "Lap Cat",
+    "answer1Value": "lap-cat",
+    "answer2": "Mischief-Maker",
+    "answer2Value": "mischief-maker"
+  },
+  {
+    "id": 2,
+    "question": "Would you rather have a quiet companion or a chatty chatterbox?",
+    "answer1": "Quiet",
+    "answer1Value": "quiet",
+    "answer2": "Chatty",
+    "answer2Value": "chatty"
+  },
+  {
+    "id": 3,
+    "question": "Do you vibe more with an independent adventurer or a loyal shadow?",
+    "answer1": "Adventurer",
+    "answer1Value": "adventurer",
+    "answer2": "Shadow",
+    "answer2Value": "shadow"
+  },
+  {
+    "id": 4,
+    "question": "Are you drawn to sleek, modern designs or quirky, whimsical styles?",
+    "answer1": "Modern",
+    "answer1Value": "modern",
+    "answer2": "Whimsical",
+    "answer2Value": "whimsical"
+  },
+  {
+    "id": 5,
+    "question": "Do you prefer bright, bold colors or soft, muted tones?",
+    "answer1": "Bright",
+    "answer1Value": "bright",
+    "answer2": "Muted",
+    "answer2Value": "muted"
+  },
+  {
+    "id": 6,
+    "question": "Would your ideal kitty love chasing laser dots or lounging in the sun?",
+    "answer1": "Laser chaser",
+    "answer1Value": "laser-chaser",
+    "answer2": "Sun lounger",
+    "answer2Value": "sun-lounger"
+  },
+  {
+    "id": 7,
+    "question": "Do you see your cat exploring cyber worlds or ruling a cozy pixel palace?",
+    "answer1": "Cyber explorer",
+    "answer1Value": "cyber-explorer",
+    "answer2": "Pixel palace ruler",
+    "answer2Value": "palace-ruler"
+  },
+  {
+    "id": 8,
+    "question": "Are you more of an early bird or a night owl?",
+    "answer1": "Early bird",
+    "answer1Value": "early-bird",
+    "answer2": "Night owl",
+    "answer2Value": "night-owl"
+  },
+  {
+    "id": 9,
+    "question": "Do you prefer classic pixel art or flashy animated GIFs?",
+    "answer1": "Pixel art",
+    "answer1Value": "pixel-art",
+    "answer2": "Animated GIFs",
+    "answer2Value": "animated-gifs"
+  },
+  {
+    "id": 10,
+    "question": "Would your kitty rock a neon mohawk or a cozy sweater?",
+    "answer1": "Neon mohawk",
+    "answer1Value": "neon-mohawk",
+    "answer2": "Cozy sweater",
+    "answer2Value": "cozy-sweater"
+  },
+  {
+    "id": 11,
+    "question": "Does your ideal cat love to nap in a cardboard box or rule a throne?",
+    "answer1": "Cardboard box",
+    "answer1Value": "cardboard-box",
+    "answer2": "Throne",
+    "answer2Value": "throne"
+  },
+  {
+    "id": 12,
+    "question": "Would your cat be more of a techno DJ or a classical pianist?",
+    "answer1": "Techno DJ",
+    "answer1Value": "techno-dj",
+    "answer2": "Classical pianist",
+    "answer2Value": "pianist"
+  },
+  {
+    "id": 13,
+    "question": "Would your ideal kitty love scaling pixelated skyscrapers or curling up by the 8-bit fire?",
+    "answer1": "Scaling skyscrapers",
+    "answer1Value": "skyscrapers",
+    "answer2": "Curling up by the fire",
+    "answer2Value": "curling-up"
+  },
+  {
+    "id": 14,
+    "question": "Does your cat spend more time chasing butterflies or counting constellations?",
+    "answer1": "Chasing butterflies",
+    "answer1Value": "butterflies",
+    "answer2": "Counting constellations",
+    "answer2Value": "constellations"
+  },
+  {
+    "id": 15,
+    "question": "Would your kitty prefer nibbling on virtual tuna or playing with digital donuts?",
+    "answer1": "Virtual tuna",
+    "answer1Value": "tuna",
+    "answer2": "Digital donuts",
+    "answer2Value": "donuts"
+  },
+  {
+    "id": 16,
+    "question": "Are you looking for a high-energy zoomer or a laid-back snoozer?",
+    "answer1": "Zoomer",
+    "answer1Value": "zoomer",
+    "answer2": "Snoozer",
+    "answer2Value": "snoozer"
+  },
+  {
+    "id": 17,
+    "question": "Would your kitty rock a pair of pixel sunglasses or a vintage bow tie?",
+    "answer1": "Pixel sunglasses",
+    "answer1Value": "sunglasses",
+    "answer2": "Vintage bow tie",
+    "answer2Value": "bow-tie"
+  },
+  {
+    "id": 18,
+    "question": "Is your ideal kitty a confident diva or a shy sweetheart?",
+    "answer1": "Confident diva",
+    "answer1Value": "diva",
+    "answer2": "Shy sweetheart",
+    "answer2Value": "sweetheart"
+  }
+]
