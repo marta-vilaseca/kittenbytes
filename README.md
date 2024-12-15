@@ -54,7 +54,7 @@ After the last months focusing on TypeScript, React or Next.js playing only with
   - Clicking on the adopt button will increase the adoptions counter
   - ... and display a thank you message, along with a **generated embed code** that you can copy and paste on your website in order to display your new pixel companion:
 
-<div class="kitten-bytes-widget"> <h3>Hi, I'm Neon!</h3> <img src="https://kittenbytes.vercel.app/assets/images/kittens/demonic-2.gif" alt="Neon" width="100px" height="100px"> <p>I'm 9 years old, I <img src="https://kittenbytes.vercel.app/assets/images/pixel-heart.gif" /> colorful accessories and stealing your hair ties</p> <p><a href="https://kittenbytes.vercel.app/" target="_blank">Adopt your kitten!</a></p> </div> <style> .kitten-bytes-widget { margin: 10px auto; font-family: monospace, 'Courier New', Courier; text-align: center; background: #333; color: #fff; border: 2px solid #fff; padding: 10px; border-radius: 10px; width: 300px; } .kitten-bytes-widget h3 { margin: 10px 0; font-size: 20px; font-weight: 600; } .kitten-bytes-widget p { font-size: 16px; margin: 10px 0; } .kitten-bytes-widget img { max-width: 120px; height: auto; } .kitten-bytes-widget a:link, a:visited { color: #03a6d5 !important; text-decoration: none; } .kitten-bytes-widget a:hover, a:active { text-decoration: underline; } </style>
+<img src="./assets/images/widget-example.jpg" />
 
 - If you try to adopt a kitten that you've already adopted, an good old school **alert window** will warn you about that
   - _(kittens you've already adopted are saved in your local storage)_
