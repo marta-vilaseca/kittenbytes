@@ -56,8 +56,8 @@ After the last months focusing on TypeScript, React or Next.js playing only with
 
 <img src="./assets/images/widget-example.jpg" />
 
-- If you try to adopt a kitten that you've already adopted, an good old school **alert window** will warn you about that
-  - _(kittens you've already adopted are saved in your local storage)_
+- If you try to adopt a kitten that you've already adopted, a good old school **alert window** will warn you about that
+  - _(kittens that you've already adopted are saved in your local storage)_
 - You can also view a full list of all the kittens in the **Kittens** page, and access their individual profiles from there as well
 
 ### The quiz
@@ -72,7 +72,7 @@ The most fun part of this little app: you can **take a personality quiz** to get
   To prevent incomplete submissions, the "Find My Kitty!" button is disabled until all questions are answered. The script monitors the quiz dynamically and updates the button state accordingly.
 - **Processing the Results**
   - _When the user submits the quiz:_
-    - The script collects the selected answers and calculates a score for each kitten in the database (data/kittens.json) by comparing the user's selected traits with the traits of each kitten.
+    - The script collects the selected answers and calculates a score for each kitten in the [database](./data/kittens.json) by comparing the user's selected traits with the traits of each kitten.
     - Each matching trait increases the score for that kitten.
   - _Finding the Best Match:_
     - The kitten with the highest score is identified as the user's best match.
@@ -96,7 +96,7 @@ Without further ado, full credits list for everything I used for the project:
             <li><a target="_blank" href="https://www.deviantart.com/korajora/art/Little-Pixel-Heart-600475302">This little pixel heart</a> by Korajora @ Deviantart</li>
             <li><a target="_blank" href="https://www.deviantart.com/nerdy-pixel-girl/art/Rainbow-Cat-Paw-Print-Bullet-F2U-658019729">The Rainbow Cat Paw Print
             </a> by Nerdy-pixel-girl @ Deviantart</li>
-            <li><a target="_blank" href="https://picrew.me/en/image_maker/112842/">This picrew</a> by Viiolaceus to generate my pixel art portrait</li>
+            <li><a target="_blank" href="https://picrew.me/en/image_maker/112842/">This picrew</a> by Viiolaceus to generate my pixel art portrait on the about page</li>
 </ul>
 
 ##### Libraries, resources and tools
