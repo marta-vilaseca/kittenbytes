@@ -143,3 +143,21 @@ hr {
     opacity: 1;
   }
 }
+
+.profile {
+  text-align: center;
+  padding: 40px !important;
+}
+
+.profile .is-light {
+  width: 150px;
+  margin: 20px auto;
+}
+
+.profile .is-light img {
+  scale: 1.5;
+}
+
+.profile button {
+  margin: 20px auto;
+}

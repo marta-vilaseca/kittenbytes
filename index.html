@@ -35,9 +35,9 @@
         <marquee scrolldelay="65"><img src="assets/images/star.gif" alt="" /> LAST UPDATED on December 14th with some Xmas kitties! </marquee>
       </div>
 
-      <h3><img src="assets/images/paw.gif" alt="" /> <span class="nes-text is-success">374859</span> kittens adopted!! <img src="assets/images/paw.gif" alt="" /></h3>
+      <h3><img src="assets/images/paw.gif" alt="" /> <span id="adopted" class="nes-text is-success"></span> kittens adopted!! <img src="assets/images/paw.gif" alt="" /></h3>
 
-      <h4 class="nes-text is-warning">Wondering what kitten would be right for you? <a href="quiz.html">Take our quiz!</a></h4>
+      <h4 class="nes-text is-warning">Wondering what kitten would be your ideal meow-mate? <a href="quiz.html">Take our quiz!</a></h4>
 
       <table id="adoptable_kittens">
         <tr>
@@ -111,7 +111,9 @@
         </tr>
       </table>
 
-      <div class="counter"><a class="nes-btn" href="#">456 Visitors</a> since Nov 2024 <img src="assets/images/rainbow.gif" alt="" /></div>
+      <div class="counter">
+        <a class="nes-btn" href="#"><span id="visits"></span> Visitors</a> since April 2001 <img src="assets/images/rainbow.gif" alt="" />
+      </div>
 
       <!-- <div>
         <span class="nes-text is-primary">Primary</span>
@@ -145,6 +147,21 @@
         </div>
       </div> -->
     </main>
-    <footer></footer>
+    <footer>
+      <!-- <div class="counter"><a href="https://www.freecounterstat.com" title="website hit counter"
+        >456 Visitors</a> since Nov 2024 <img src="assets/images/rainbow.gif" alt="" /></div><a href="https://www.freecounterstat.com" title="website hit counter"
+        ><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=9nhejutbbazecrk5b38ug6y35mxt6e6h" border="0" title="website hit counter" alt="website hit counter" />visitors since Jan 2000</a
+      > -->
+    </footer>
+    <script>
+      function visits(response) {
+        document.getElementById("visits").innerText = response.value;
+      }
+      function adopted(response) {
+        document.getElementById("adopted").innerText = response.value;
+      }
+    </script>
+    <script async src="https://abacus.jasoncameron.dev/hit/kittenbytes/visits?callback=visits"></script>
+    <script async src="https://abacus.jasoncameron.dev/get/kittenbytes/adopted?callback=adopted"></script>
   </body>
 </html>

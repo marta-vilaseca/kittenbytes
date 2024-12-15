@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KittenBytes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>
+          <div class="rainbow-text">
+            <img src="assets/images/star.gif" alt="" /><span class="block-line"
+              ><span><span>K</span><span>i</span><span>t</span><span>t</span><span>e</span><span>n</span><span>B</span><span>y</span><span>t</span><span>e</span><span>s</span></span></span
+            ><img src="assets/images/star.gif" alt="" />
+          </div>
+        </h1>
+        <h2>Retro Cats with Mega Purrsonalities</h2>
+      </header>
+
+      <hr />
+
+      <h3><img src="assets/images/paw.gif" alt="" /> <span id="adopted" class="nes-text is-success"></span> kittens adopted!! <img src="assets/images/paw.gif" alt="" /></h3>
+
+      <div class="kitten-bytes-widget">
+        <h3>Hi, I'm <b>Silver!</b></h3>
+        <img src="./assets/images/kittens/default-2.gif" alt="Silver" width="100px" height="100px" style="margin-bottom: 20px" />
+        <p>I'm 8 years old and I <img src="./assets/images/pixel-heart.gif" /> My neon pink collar and dance music</p>
+        <p><a href="#" target="_blank">Adopt your kitten!</a></p>
+      </div>
+      <style>
+        .kitten-bytes-widget {
+          margin: 10px auto;
+          font-family: monospace;
+          text-align: center;
+          background: #333;
+          color: #fff;
+          border: 2px solid #fff;
+          padding: 10px;
+          border-radius: 10px;
+          width: 300px;
+        }
+        .kitten-bytes-widget h3 {
+          margin: 10px 0;
+          font-size: 20px;
+          font-weight: 600;
+        }
+        .kitten-bytes-widget p {
+          font-size: 16px;
+          margin: 10px 0;
+        }
+        .kitten-bytes-widget img {
+          max-width: 120px;
+          height: auto;
+        }
+        .kitten-bytes-widget a:link,
+        a:visited {
+          color: #03a6d5 !important;
+          text-decoration: none;
+        }
+        .kitten-bytes-widget a:hover,
+        a:active {
+          text-decoration: underline;
+        }
+      </style>
+
+      <div id="profile-container"></div>
+
+      <hr />
+    </main>
+    <footer>
+      <div class="counter"><a class="nes-btn" href="#">456 Visitors</a> since Nov 2024 <img src="assets/images/rainbow.gif" alt="" /></div>
+    </footer>
+    <script src="profile.js"></script>
+    <script>
+      function adopted(response) {
+        document.getElementById("adopted").innerText = response.value;
+      }
+    </script>
+    <script async src="https://abacus.jasoncameron.dev/get/kittenbytes/adopted?callback=adopted"></script>
+  </body>
+</html>
