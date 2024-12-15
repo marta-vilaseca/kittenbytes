@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Adopt retro pixel cats with mega purrsonalities!" />
+    <title>KittenBytes</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navigation">
+          <span class="nes-badge"><span class="is-primary">About</span></span>
+          <a href="kittens.html" class="nes-badge">
+            <span class="is-dark">Kittens</span>
+          </a>
+          <a href="https://github.com/marta-vilaseca/kittenbytes" target="_blank" class="nes-badge">
+            <span class="is-dark">Github</span>
+          </a>
+          <a href="https://www.codedex.io/" target="_blank" class="nes-badge">
+            <span class="is-dark">Codedéx</span>
+          </a>
+        </nav>
+        <h1>
+          <div class="rainbow-text">
+            <a href="/"><img src="assets/images/star.gif" alt="" /><span class="block-line"
+              ><span><span>K</span><span>i</span><span>t</span><span>t</span><span>e</span><span>n</span><span>B</span><span>y</span><span>t</span><span>e</span><span>s</span></span></span
+            ><img src="assets/images/star.gif" alt="" /></a
+          </div>
+        </h1>
+        <h2>Retro Cats with Mega Purrsonalities</h2>
+      </header>
+
+      <hr />
+
+      <section class="about centered">
+        <h3 class="nes-text is-warning">Hi! I'm Marta and I'm the creator behind Kittenbytes <img src="./assets/images/paw.gif" alt=""></h3>
+        <img src="assets/images/marta.png" alt="Marta" width="300" height="300" class="about-image" />
+        <p>I'm from Spain, currently re-training as a front-end developer after some years away from the field.</p>
+        
+        <p>In December 2024 I decided to join the retro-themed Codedéx hackaton because I'm a big lover of all things old school (I'm an elder millennial, so I am a bit retro myself *cough*), and because after quite a few months of intense studying I wanted to do something strictly for fun. This really seemed the perfect occasion to do so, as well as a <s>purrfect</s> perfect way to close the year 💗</p>
+
+        <hr>
+
+        <p>You have more details about the project <a target="_blank" href="https://github.com/marta-vilaseca/kittenbytes">on its github page</a>, but I wanted to give due credit to all the pixel-tastic resources I've used to make this little site in less than 48 hours. <span class="nes-text is-success">Thank you so much!</span></p>
+
+        <div class="lists left">
+          <ul class="nes-list is-disc">
+            <li><a target="_blank" href="https://virusystem.itch.io/background-space">This space background</a> by Virusystem @ itch.io</li>
+            <li><a target="_blank" href="https://toffeebunny.itch.io/cat-pixel-mega-pack">TofeeBunny's Cat Pixel Mega Pack</a> @ itch.io for the kitten sprites 💗</li>
+            <li><a target="_blank" href="https://nyknck.itch.io/staranimation">This animated star by nycknck</a> @ itch.io</li>
+            <li><a target="_blank" href="https://www.deviantart.com/zapilai/art/Rainbow-heart-divider-pixel-gif-462626305">This rainbow heart divider</a> by zapilai @ Deviantart</li>
+            <li><a target="_blank" href="https://www.deviantart.com/korajora/art/Little-Pixel-Heart-600475302">This little pixel heart</a> by Korajora @ Deviantart</li>
+            <li><a target="_blank" href="https://www.deviantart.com/nerdy-pixel-girl/art/Rainbow-Cat-Paw-Print-Bullet-F2U-658019729">The Rainbow Cat Paw Print
+            </a> by Nerdy-pixel-girl @ Deviantart</li>
+            <li>The <a target="_blank" href="https://nostalgic-css.github.io/NES.css/">NES.css</a> framework for styling</li>
+            <li>This <a target="_blank" href="https://www.html-code-generator.com/html/rainbow-text-generator">Rainbow Text Generator</a> to help me style the site title</li>
+            <li>The <a target="_blank" href="https://www.dafont.com/04b-30.font">04b_30 font</a> from DaFonts for the site title</li>
+            <li>The <a target="_blank" href="https://jasoncameron.dev/abacus/">Abacus API</a> for the visitor and adoption counters</li>
+            <li>The <a target="_blank" href="https://ezgif.com/">EZGif tools</a> to split the sprite sheets and create the animated sprites</li>
+          </ul>
+        </div>
+      </section>
+
+      <hr>
+
+    </main>
+
+    <footer>
+      <div class="counter">
+        <span class="nes-btn nes-btn-inactive" href="#"><span id="visits"></span> Visitors</span> since April 2001 <img src="assets/images/rainbow.gif" alt="" />
+      </div>
+      <div class="credits-footer">
+        <a target="_blank" href="http://www.martavilaseca.dev" class="default">martavilaseca.dev</a>
+      </div>
+    </footer>
+
+    <script defer src="./utils/counters.js"></script>
+    <script defer src="./utils/kittens-utils.js"></script>
+    <script async src="https://abacus.jasoncameron.dev/hit/kittenbytes/visits?callback=visits"></script>
+    <script async src="https://abacus.jasoncameron.dev/get/kittenbytes/adopted?callback=adopted"></script>
+  </body>
+</html>

@@ -1,3 +1,5 @@
+/* GENERAL STYLES
+----------------------------------------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,20 @@ body {
   background-size: cover;
   color: white;
   line-height: 2;
+}
+
+main {
+  width: 900px;
+  position: relative;
+  margin: 50px auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
 }
 
 a.default:link {
@@ -26,49 +42,13 @@ a.default:visited {
   color: #b396ef;
 }
 
-main {
-  width: 900px;
-  position: relative;
-  margin: 50px auto;
+.nes-list {
+  list-style-position: inside;
+  margin-left: 20px;
 }
 
-.centered {
-  text-align: center;
-}
-
-@font-face {
-  font-family: "04b30";
-  src: url("assets/fonts/04b_30__-webfont.woff2") format("woff2"), url("assets/fonts/04b_30__-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1 {
-  font-family: "04b30";
-  font-weight: 400;
-  font-size: 70px;
-}
-
-.rainbow-text {
-  /* font-family: Comic Sans MS, cursive, sans-serif; */
-  text-align: center;
-  font-weight: bold;
-  /* font-size: 100px; */
-}
-.rainbow-text .block-line > span {
-  display: inline-block;
-}
-span.block-line > span {
-  /* background-image: linear-gradient(90deg, #c7b601, #e39209, #f66c1c, #fe4838, #fb295b, #ed1180, #d504a6, #b601c8, #910ae3, #6b1df6, #4739fe, #285bfb, #1181ed, #03a6d5); */
-  background-image: linear-gradient(90deg, #f66c1c, #fe4838, #fb295b, #ed1180, #d504a6, #b601c8, #910ae3, #6b1df6, #4739fe, #285bfb, #1181ed, #03a6d5);
-  color: #0000;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
-.rainbow-text img {
-  scale: 2;
-  margin: 0 15px;
+.nes-list li::before {
+  color: #f2c409 !important;
 }
 
 h2 {
@@ -90,12 +70,6 @@ hr {
   margin: 50px 0;
 }
 
-.navigation {
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: space-around;
-}
-
 .is-light {
   background-color: rgba(255, 250, 250, 0.6);
   color: #111;
@@ -103,12 +77,6 @@ hr {
 
 .nes-btn-inactive {
   pointer-events: none;
-}
-
-.navigation .is-dark:hover:first-child {
-  color: #111;
-  background-color: #f7d51d;
-  box-shadow: 0 0.5em #f7d51d, 0 -0.5em #f7d51d, 0.5em 0 #f7d51d, -0.5em 0 #f7d51d;
 }
 
 .updatelog {
@@ -122,6 +90,64 @@ hr {
   margin-top: -4px;
 }
 
+.kitten {
+  scale: 1.5;
+  margin: 0 auto;
+}
+
+.counter {
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* HEADER
+----------------------------------------------------- */
+.navigation {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation .is-dark:hover:first-child {
+  color: #111;
+  background-color: #f7d51d;
+  box-shadow: 0 0.5em #f7d51d, 0 -0.5em #f7d51d, 0.5em 0 #f7d51d, -0.5em 0 #f7d51d;
+}
+
+@font-face {
+  font-family: "04b30";
+  src: url("assets/fonts/04b_30__-webfont.woff2") format("woff2"), url("assets/fonts/04b_30__-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "04b30";
+  font-weight: 400;
+  font-size: 70px;
+}
+
+.rainbow-text {
+  text-align: center;
+  font-weight: bold;
+}
+.rainbow-text .block-line > span {
+  display: inline-block;
+}
+span.block-line > span {
+  background-image: linear-gradient(90deg, #f66c1c, #fe4838, #fb295b, #ed1180, #d504a6, #b601c8, #910ae3, #6b1df6, #4739fe, #285bfb, #1181ed, #03a6d5);
+  color: #0000;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.rainbow-text img {
+  scale: 2;
+  margin: 0 15px;
+}
+
+/* KITTENS LIST
+----------------------------------------------------- */
 #adoptable_kittens {
   border-collapse: collapse;
   border: none;
@@ -137,7 +163,6 @@ hr {
 #adoptable_kittens td {
   width: 33.33%;
   text-align: center;
-  /* border: 1px solid rgba(255, 250, 250, 0.3); */
   padding: 10px;
 }
 
@@ -146,16 +171,16 @@ hr {
   margin: 20px auto 10px;
 }
 
-.kitten {
-  scale: 1.5;
-  margin: 0 auto;
-}
-
-.counter {
-  margin: 50px auto;
+/* FOOTER 
+----------------------------------------------------- */
+.credits-footer {
+  background-color: #212529;
   text-align: center;
+  padding: 20px;
 }
 
+/* QUIZ PAGE
+----------------------------------------------------- */
 #quiz .center {
   position: relative;
   margin: 0 auto;
@@ -198,6 +223,8 @@ hr {
   }
 }
 
+/* KITTEN PROFILE 
+----------------------------------------------------- */
 .profile {
   text-align: center;
   padding: 40px !important;
@@ -216,8 +243,18 @@ hr {
   margin: 20px auto;
 }
 
-.credits-footer {
-  background-color: #212529;
-  text-align: center;
-  padding: 20px;
+/* ABOUT PAGE
+----------------------------------------------------- */
+.about h3 {
+  max-width: 600px;
+  line-height: 20px;
+  margin: 30px auto 0;
+}
+
+.about img {
+  margin: 30px auto;
+}
+
+.about p {
+  margin: 30px auto;
 }
