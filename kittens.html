@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Adopt retro pixel cats with mega purrsonalities!" />
     <title>KittenBytes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -18,9 +17,7 @@
           <a href="about.html" class="nes-badge">
             <span class="is-dark">About</span>
           </a>
-          <a href="kittens.html" class="nes-badge">
-            <span class="is-dark">Kittens</span>
-          </a>
+            <span class="nes-badge"><span class="is-primary">Kittens</span></span>
           <a href="https://github.com/marta-vilaseca/kittenbytes" target="_blank" class="nes-badge">
             <span class="is-dark">Github</span>
           </a>
@@ -41,23 +38,15 @@
       <hr />
 
       <section class="centered">
-        
-      <div class="updatelog">
-        <marquee scrolldelay="65"><img src="assets/images/new.gif" alt="" /> <span>LAST UPDATED on December 14th with some Xmas kitties!</span> </marquee>
-      </div>
 
       <h3><img src="assets/images/paw.gif" alt="" /> <span id="adopted" class="nes-text is-success"></span> kittens adopted!! <img src="assets/images/paw.gif" alt="" /></h3>
 
       <h4>Wondering what kitten would be your ideal meow-mate? <a class="default" href="quiz.html">Take our quiz!</a></h4>
 
-      <div id="kittens-container"></div>
-      <a href="kittens.html" class="nes-btn is-warning">
-        View all
-      </a>
-
+      <div id="all-kittens-container"></div>
     </section>
-
-    <hr>
+      
+    <hr />
 
     </main>
 

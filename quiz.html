@@ -3,21 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Adopt retro pixel cats with mega purrsonalities!" />
     <title>KittenBytes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
       <header>
+        <nav class="navigation">
+          <a href="about.html" class="nes-badge">
+            <span class="is-dark">About</span>
+          </a>
+          <a href="kittens.html" class="nes-badge">
+            <span class="is-dark">Kittens</span>
+          </a>
+          <a href="https://github.com/marta-vilaseca/kittenbytes" target="_blank" class="nes-badge">
+            <span class="is-dark">Github</span>
+          </a>
+          <a href="https://www.codedex.io/" target="_blank" class="nes-badge">
+            <span class="is-dark">Codedéx</span>
+          </a>
+        </nav>
         <h1>
           <div class="rainbow-text">
-            <img src="assets/images/star.gif" alt="" /><span class="block-line"
+            <a href="/"><img src="assets/images/star.gif" alt="" /><span class="block-line"
               ><span><span>K</span><span>i</span><span>t</span><span>t</span><span>e</span><span>n</span><span>B</span><span>y</span><span>t</span><span>e</span><span>s</span></span></span
-            ><img src="assets/images/star.gif" alt="" />
+            ><img src="assets/images/star.gif" alt="" /></a
           </div>
         </h1>
         <h2>Retro Cats with Mega Purrsonalities</h2>
@@ -25,22 +40,34 @@
 
       <hr />
 
-      <h3 class="nes-text is-warning">CAT QUIZ!!</h3>
+      <section>
+        <h3><img src="assets/images/paw.gif" alt="" /> <span id="adopted" class="nes-text is-success"></span> kittens adopted!! <img src="assets/images/paw.gif" alt="" /></h3>
+        
+        <h3 class="nes-text is-warning">CAT QUIZ!!</h3>
 
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam molestiae rerum temporibus a, quas similique voluptas.</p>
+      <p>Unsure of what pixel furball would be perfect for you? Then answer a few questions to help you find your purr-fect digital companion!</p>
 
       <div class="container">
         <form id="quiz">
           <!-- Questions will load dynamically here -->
-          <div class="center"><button type="button" class="nes-btn is-warning" id="submit">Find My Kitty!</button></div>
+          <div class="center"><button type="button" class="nes-btn is-disabled" id="submit">Find My Kitty!</button></div>
         </form>
       </div>
+    </section>
 
       <hr />
     </main>
     <footer>
-      <div class="counter"><a class="nes-btn" href="#">456 Visitors</a> since Nov 2024 <img src="assets/images/rainbow.gif" alt="" /></div>
+      <div class="counter">
+        <span class="nes-btn nes-btn-inactive" href="#"><span id="visits"></span> Visitors</span> since April 2001 <img src="assets/images/rainbow.gif" alt="" />
+      </div>
+      <div class="credits-footer">
+        <a href="http://www.martavilaseca.dev" class="default">martavilaseca.dev</a>
+      </div>
     </footer>
     <script src="quiz.js"></script>
+    <script defer src="./utils/counters.js"></script>
+    <script async src="https://abacus.jasoncameron.dev/hit/kittenbytes/visits?callback=visits"></script>
+    <script async src="https://abacus.jasoncameron.dev/get/kittenbytes/adopted?callback=adopted"></script>
   </body>
 </html>

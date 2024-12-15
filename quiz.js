@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const quizContainer = document.getElementById("quiz");
   const submitButton = document.getElementById("submit");
-  const resultContainer = document.getElementById("result-container");
 
   fetch("data/questions.json")
     .then((response) => response.json())
@@ -15,20 +14,40 @@ document.addEventListener("DOMContentLoaded", () => {
         questionDiv.classList.add(index % 2 === 0 ? "from-left" : "from-right");
 
         questionDiv.innerHTML = `
-            <p>${q.question}</p>
-            <label>
-              <input type="radio" class="nes-radio is-dark" name="q${index}" value="${q.answer1Value}" required>
-              <span>${q.answer1}</span>
-            </label>
-            <label>
-              <input type="radio" class="nes-radio is-dark" name="q${index}" value="${q.answer2Value}" required>
-              <span>${q.answer2}</span>
-            </label>
-          `;
+          <p>${q.question}</p>
+          <label>
+            <input type="radio" class="nes-radio is-dark" name="q${index}" value="${q.answer1Value}" required>
+            <span>${q.answer1}</span>
+          </label>
+          <label>
+            <input type="radio" class="nes-radio is-dark" name="q${index}" value="${q.answer2Value}" required>
+            <span>${q.answer2}</span>
+          </label>
+        `;
         quizContainer.prepend(questionDiv);
       });
 
-      submitButton.disabled = false;
+      // Single event listener for change events
+      quizContainer.addEventListener("change", (event) => {
+        // Check all radio button groups
+        const radioGroups = new Set([...quizContainer.querySelectorAll("input[type=radio]")].map((input) => input.name));
+
+        const allAnswered = [...radioGroups].every((groupName) => quizContainer.querySelector(`input[name="${groupName}"]:checked`));
+
+        if (allAnswered) {
+          submitButton.disabled = false;
+          submitButton.classList.remove("is-disabled");
+          submitButton.classList.add("is-warning");
+        } else {
+          submitButton.disabled = true;
+          submitButton.classList.remove("is-warning");
+          submitButton.classList.add("is-disabled");
+        }
+      });
+
+      // Initially disable the submit button
+      submitButton.disabled = true;
+      submitButton.classList.add("is-disabled");
     });
 
   submitButton.addEventListener("click", (event) => {
