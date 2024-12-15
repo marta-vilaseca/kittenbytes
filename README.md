@@ -7,7 +7,7 @@
 - [The Idea](#the-idea)
 - [Features and Details](#features-and-details)
 - [Tools used](#tools-used)
-- [Development notes](#development-notes)
+  - [Development notes](#development-notes)
 - [Credits](#credits)
 
 <img src="./assets/images/fullscreenshot.png" width="800px">
@@ -28,7 +28,7 @@ I focused on my interests and hobbies and initially considered making a little f
 
 Then I started reminiscing about The Old Internet Days™ in general, and it didn’t take me long to remember **virtual pet adoption sites** and those long afternoons answering **fun little quizzes**... and _then_ I knew I was onto something.
 
-Being the cat lover I am, of course I decided to make a kitten adoption site. Besides, [cats are still the rulers of the interwebs after all](https://www.wired.com/2015/08/how-cats-took-over-the-internet/): it's a universal law, you can never go wrong with cats.
+Being the cat lover I am, of course I decided to make a kitten adoption site. Besides, [cats are still the rulers of the interwebs](https://www.wired.com/2015/08/how-cats-took-over-the-internet/): it's a universal law, you can never go wrong with cats.
 
 ## Tools used
 
@@ -84,7 +84,7 @@ The most fun part of this little app: you can **take a personality quiz** to get
 
 I would like to give a very **sincere THANK YOU to [Codedéx](https://www.codedex.io/)** for organising this hackaton, because this little project is the most fun I´ve had coding in ages! 💗 And last but not least, to all the pixel artists whose work has helped me build all of this in a little less than 24 hours 😻
 
-Without further ado, full credits list for everything I used for the project:
+Without further ado, full credits list for everything I used for **KittenBytes**:
 
 ##### Sprites and pixel art
 
